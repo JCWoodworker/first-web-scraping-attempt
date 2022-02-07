@@ -1,0 +1,108 @@
+@import "./foundation/settings";
+@import "~foundation-sites/scss/foundation";
+@include foundation-everything;
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  -moz-tab-size: 4;
+  tab-size: 4;
+}
+
+body {
+  background-color: rgb(62, 62, 62);
+}
+
+.main-content {
+  background-color: white;
+  text-align: center;
+  margin: 4rem auto;
+  padding: 4rem;
+  max-width: 80%;
+  min-width: 300px
+}
+
+.main-header {
+  font-size: 5rem;
+  font-weight: bold;
+}
+
+.buttons-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 4rem 0 1rem 0;
+  gap: 6rem;
+}
+
+.scrape-button {
+  border: 1rem solid rgb(62, 62, 62);
+  background-color: rgb(62, 62, 62);
+  color: white;
+  font-weight: bolder;
+}
+
+.scrape-button:hover {
+  border: 1rem solid rgb(11, 48, 11);
+  background-color: rgb(11, 48, 11);
+  cursor: pointer
+}
+
+.scrape-button:active {
+  border: 1rem solid rgb(10, 93, 10);
+  background-color: rgb(10, 93, 10);
+  cursor: pointer
+}
+
+.clear-data-button {
+  border: 1rem solid rgb(62, 62, 62);
+  background-color: rgb(62, 62, 62);
+  color: white;
+  font-weight: bolder
+}
+
+.clear-data-button:hover {
+  border: 1rem solid rgb(81, 9, 10);
+  background-color: rgb(81, 9, 10);
+  cursor: pointer
+}
+
+.clear-data-button:active {
+  border: 1rem solid rgb(118, 13, 15);
+  background-color: rgb(118, 13, 15);
+  cursor: pointer
+}
+
+.projects-container {
+  background-color: white;
+  text-align: center;
+  margin: 4rem auto;
+  padding: 4rem;
+  max-width: 80%;
+  min-width: 300px
+}
+
+.projects-heading {
+  font-weight: bold;
+}
+
+.heading-underline {
+  margin-bottom: 4rem;
+}
+
+.project-tile {
+  text-align: left;
+  max-width: 80%;
+}
+
+.tile-underline {
+  border-bottom: 5px solid black;
+  max-width: 80%;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}
+
