@@ -33,7 +33,6 @@ const App = (props) => {
   }
 
   useEffect(() => {
-    
   }, [])
 
   return (
