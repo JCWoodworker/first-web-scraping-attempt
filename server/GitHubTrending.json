@@ -7,38 +7,14 @@
   },
   {
     "name": "Tvlist-awesome-m3u-m3u8",
-    "language": "Rust",
+    "language": "Python",
     "description": "直播源相关资源汇总 📺 💯 IPTV、M3U —— 勤洗手、戴口罩，祝愿所有人百毒不侵",
     "contributors": []
   },
   {
-    "name": "gyroflow",
-    "language": "Python",
-    "description": "Video stabilization using gyroscope data",
-    "contributors": []
-  },
-  {
     "name": "glide-text2im",
-    "language": "JavaScript",
+    "language": "C++",
     "description": "GLIDE: a diffusion-based text-conditional image synthesis model",
-    "contributors": []
-  },
-  {
-    "name": "medusa",
-    "language": "Lua",
-    "description": "The open-source Shopify alternative ⚡️",
-    "contributors": []
-  },
-  {
-    "name": "AstroVim",
-    "language": "C++",
-    "description": "AstroVim is an aesthetic and feature-rich neovim config that is extensible and easy to use with a great set of plugins",
-    "contributors": []
-  },
-  {
-    "name": "opencbdc-tx",
-    "language": "C++",
-    "description": "A transaction processor for a hypothetical, general-purpose, central bank digital currency",
     "contributors": []
   },
   {
@@ -48,103 +24,127 @@
     "contributors": []
   },
   {
-    "name": "trilium",
+    "name": "medusa",
     "language": "Python",
-    "description": "Build your personal knowledge base with Trilium Notes",
+    "description": "The open-source Shopify alternative ⚡️",
     "contributors": []
   },
   {
     "name": "manim",
-    "language": "Dart",
+    "language": "C++",
     "description": "Animation engine for explanatory math videos",
     "contributors": []
   },
   {
-    "name": "flutter",
-    "language": "HCL",
-    "description": "Flutter makes it easy and fast to build beautiful apps for mobile and beyond",
-    "contributors": []
-  },
-  {
-    "name": "ampernetacle",
+    "name": "opencbdc-tx",
     "language": "Rust",
-    "description": "Yet another remote desktop software",
+    "description": "A transaction processor for a hypothetical, general-purpose, central bank digital currency",
     "contributors": []
   },
   {
-    "name": "rustdesk",
+    "name": "gyroflow",
+    "language": "JavaScript",
+    "description": "Video stabilization using gyroscope data",
+    "contributors": []
+  },
+  {
+    "name": "ToolJet",
     "language": "JavaScript",
     "description": "Extensible low-code framework for building business applications. Connect to databases, cloud storages, GraphQL, API endpoints, Airtable, etc and build apps using drag and application builder. Built using JavaScript/TypeScript. 🚀",
     "contributors": []
   },
   {
-    "name": "ToolJet",
-    "language": "C++",
-    "description": "The Serenity Operating System 🐞",
+    "name": "trilium",
+    "language": "Dart",
+    "description": "Build your personal knowledge base with Trilium Notes",
     "contributors": []
   },
   {
-    "name": "serenity",
-    "language": "Python",
-    "description": "A supercharged version of paperless: scan, index and archive all your physical documents",
-    "contributors": []
-  },
-  {
-    "name": "paperless-ng",
+    "name": "flutter",
     "language": "Rust",
-    "description": "Slint is a toolkit to efficiently develop fluid graphical user interfaces for any display: embedded devices and desktop applications. We support multiple programming languages, such as Rust, C++ or JavaScript.",
+    "description": "Flutter makes it easy and fast to build beautiful apps for mobile and beyond",
     "contributors": []
   },
   {
-    "name": "slint",
-    "language": "Vue",
-    "description": "🎉 A Vue.js 3 UI Library made by Element team",
+    "name": "rustdesk",
+    "language": "PHP",
+    "description": "Yet another remote desktop software",
     "contributors": []
   },
   {
-    "name": "element-plus",
+    "name": "laravel",
+    "language": "HCL",
+    "description": "A PHP framework for web artisans.",
+    "contributors": []
+  },
+  {
+    "name": "ampernetacle",
+    "language": "Rust",
+    "description": "【Java面试+Java学习指南】 一份涵盖大部分Java程序员所需要掌握的核心知识。",
+    "contributors": []
+  },
+  {
+    "name": "JavaFamily",
+    "language": "Lua",
+    "description": "Elegant React-like library for building user interfaces for desktop, web, mobile, SSR, liveview, and more.",
+    "contributors": []
+  },
+  {
+    "name": "dioxus",
+    "language": "Rust",
+    "description": "AstroVim is an aesthetic and feature-rich neovim config that is extensible and easy to use with a great set of plugins",
+    "contributors": []
+  },
+  {
+    "name": "AstroVim",
     "language": "Java",
+    "description": "Build smaller, faster, and more secure desktop applications with a web frontend.",
+    "contributors": []
+  },
+  {
+    "name": "tauri",
+    "language": "Rust",
     "description": "基于 Spring Boot + MyBatis Plus + Vue & Element 实现的后台管理系统 + 用户小程序，支持 RBAC 动态权限、多租户、数据权限、工作流、三方登录、支付、短信、商城等功能。你的 ⭐️ Star ⭐️，是作者生发的动力！",
     "contributors": []
   },
   {
     "name": "ruoyi-vue-pro",
     "language": "JavaScript",
-    "description": "The iconic SVG, font, and CSS toolkit",
+    "description": "A new type of shell",
     "contributors": []
   },
   {
-    "name": "Font-Awesome",
-    "language": "PHP",
-    "description": "A PHP framework for web artisans.",
+    "name": "nushell",
+    "language": "TypeScript",
+    "description": "30 days of JavaScript programming challenge is a step-by-step guide to learn JavaScript programming language in 30 days. This challenge may take more than 100 days, please just follow your own pace.",
     "contributors": []
   },
   {
-    "name": "laravel",
+    "name": "30-Days-Of-JavaScript",
+    "language": "C",
+    "description": "Headless Chrome Node.js API",
+    "contributors": []
+  },
+  {
+    "name": "puppeteer",
     "language": "Go",
+    "description": "An open-source big data platform designed and optimized for the Internet of Things (IoT).",
+    "contributors": []
+  },
+  {
+    "name": "TDengine",
+    "language": "Java",
     "description": "Netmaker makes networks with WireGuard. Netmaker automates fast, secure, and distributed virtual networks.",
     "contributors": []
   },
   {
     "name": "netmaker",
-    "language": "Rust",
-    "description": "Build smaller, faster, and more secure desktop applications with a web frontend.",
+    "language": "No Language Specified",
+    "description": "😮 Core Interview Questions & Answers For Experienced Java(Backend) Developers | 互联网 Java 工程师进阶知识完全扫盲：涵盖高并发、分布式、高可用、微服务、海量数据处理等领域知识",
     "contributors": []
   },
   {
-    "name": "tauri",
-    "language": "C",
-    "description": "A new bootable USB solution.",
-    "contributors": []
-  },
-  {
-    "name": "Ventoy",
-    "language": "JavaScript",
-    "description": "The hackable text editor",
-    "contributors": []
-  },
-  {
-    "name": "atom",
+    "name": "advanced-java",
     "language": "No Language Specified",
     "description": "",
     "contributors": []

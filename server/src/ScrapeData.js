@@ -8,6 +8,7 @@ const scrapeData = async () => {
   try {
     const { data } = await axios.get(url)
     const $ = cheerio.load(data)
+    debugger
 
     const getEntireProject = $("*[class = 'Box-row']")
     const gitHubTrendingArray = []
