@@ -30,25 +30,27 @@ const scrapeData = async () => {
       gitHubTrendingArray.push(project)
     })
 
+    
+    fs.writeFile("GitHubTrending.json", JSON.stringify(gitHubTrendingArray, null, 2), (err) => {
+      if (err) {
+        console.error(err)
+        return
+      }
+    })
+  
+    
+    gitHubTrendingArray.forEach(project => {
+        console.log(`
+        Project:  ${project.name}
+        ---------------
+        ** ${project.description}
+        Primary Language: ${project.language}
+        `)
+      })
+      console.log(` There are ${getEntireProject.length} repositories on the list.`)
+      
     return gitHubTrendingArray
 
-    // fs.writeFile("GitHubTrending.json", JSON.stringify(gitHubTrendingArray, null, 2), (err) => {
-    //   if (err) {
-    //     console.error(err)
-    //     return
-    //   }
-    //   console.log("Successfully written data to JSON")
-    // })
-
-    // gitHubTrendingArray.forEach(project => {
-    //   console.log(`
-    //   Project:  ${project.name}
-    //   ---------------
-    //   ** ${project.description}
-    //   Primary Language: ${project.language}
-    //   `)
-    // })
-    // console.log(` There are ${getEntireProject.length} repositories on the list.`)
   } catch (err) {
     console.error(err)
   }
